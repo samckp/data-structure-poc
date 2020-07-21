@@ -62,6 +62,19 @@ public class BinarySearchTree {
         }
     }
 
+    public void postOrderTraverse(){
+
+        postOrderTraverseRec(root);
+    }
+    public void postOrderTraverseRec(Node root){
+
+        if(root !=null){
+            postOrderTraverseRec(root.left);
+            postOrderTraverseRec(root.right);
+            System.out.print(" "+root.key);
+        }
+    }
+
     public static void main(String[] args) {
 
         BinarySearchTree bst = new BinarySearchTree();
@@ -77,7 +90,10 @@ public class BinarySearchTree {
         bst.inorderTraverse();
         System.out.println("\n-----------------------------------------");
         bst.preOrderTraverse();
+        System.out.println("\n-----------------------------------------");
+        bst.postOrderTraverse();
     }
 }
 //Inorder  -- 3 4 5 6 7 8 9
 //PreOrder -- 6 4 3 5 8 7 9
+//PostOrder-- 3 5 4 7 9 8 6
