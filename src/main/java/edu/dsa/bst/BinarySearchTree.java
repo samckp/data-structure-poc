@@ -21,7 +21,7 @@ public class BinarySearchTree {
    public void insert(int key){
         root= insertRecursive(root, key);
    }
-
+ 
    public Node insertRecursive(Node root, int key){
 
         if(root == null){
