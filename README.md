@@ -4,4 +4,4 @@
 2. Binary Search tree (InOrder, preOrder, postOrder Traversal)
 3. Sorting Algorithms.
 4. Graph (DFS, BFS)
-5. String patterns
+5. Fibonacci and Polindrome 
