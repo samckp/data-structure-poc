@@ -4,4 +4,4 @@
 2. Binary Search tree (InOrder, preOrder, postOrder Traversal)
 3. Sorting Algorithms.
 4. Graph (DFS, BFS)
-5. Fibonacci and Polindrome 
+5. Fibonacci and Polindrome check
