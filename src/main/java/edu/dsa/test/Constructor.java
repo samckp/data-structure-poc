@@ -1,4 +1,4 @@
-package edu.dsa;
+package edu.dsa.test;
 
 public class Constructor {
 
