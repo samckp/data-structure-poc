@@ -3,13 +3,13 @@ package edu.dsa.overriding;
 public class OverrideSubClass {
 
         public static void main(String[] args) {
-            Parent obj = new Child();
+            Parnt obj = new Child();
             obj.show();
         }
 }
 
     // Base Class
-    class Parent {
+    class Parnt {
         void show()
         {
             System.out.println("Parent's show()");
@@ -17,7 +17,7 @@ public class OverrideSubClass {
     }
 
     // Inherited class
-    class Child extends Parent {
+    class Child extends Parnt {
         // This method overrides show() of Parent
         @Override
         void show()
