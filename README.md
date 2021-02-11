@@ -6,3 +6,4 @@
 4. Graph (DFS, BFS)
 5. Fibonacci and Polindrome check
 6. Searching techniques (Linear & Binary)
+7.
